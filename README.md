@@ -7,7 +7,7 @@ I often see nice tutorials on Linkedin for Data Science and whatnot, published a
 ## Status of the project
 This project is not complete yet. 
 ### what is there: 
-The script downloads the images corresponding to an array of links (LinkedIn carousels contain a series of `< LI >< IMG >< /LI >` in two formats, a big thumbnail and the max-res image) using the open_URI gem and turns them into a PDF file using the image_size and the prawn gem. For now, the links have to be inserted manually into an array of URLs.
+The script downloads the images corresponding to an array of links (LinkedIn carousels contain a series of `< LI >< IMG >< /LI >` in two formats, a big thumbnail and the max-res image) using the open_URI gem and turns them into a PDF file using the image_size and the prawn gem. For now, the links have to be inserted manually into an array of URLs. Opening the image links with open-URI gives the image correctly, but opening the link to the carousel doesn't seem to give access to the correct page (the `<LI> <IMG> </LI>` sequence of the carousel is not there). I think it just needs the correct headers for the request, I don't think you need to be logged in in order to obtain them.
 ### what is missing:
 The next step, which is little more than a concept at the moment, is to open the URL of the carousel and parse the response for the hi-res image links, then to pass them as an array to the existing script.
 
