@@ -2,7 +2,7 @@
 A tool for downloading carousels (NOT carousel ads!) from LinkedIn.
 
 ## Origin of the project
-I often see nice tutorials on Linkedin for Data Science and whatnot, published as carousels. Ironically, although they're uploaded as PDFs, downloading them and putting them back together is long and laborious as a process. This is where I'e found myself wanting to automate this process.
+I often see nice tutorials on Linkedin for Data Science and whatnot, published as carousels. Ironically, although they're uploaded as PDFs, downloading them and stitching them back together as PDFs is a long and boring process.
 
 ## Status of the project
 This project is not complete yet. 
@@ -17,7 +17,7 @@ Open-URI
 Prawn
 Image_size
 
-It's written in Ruby 2.6.3
+It's written in Ruby 2.7.
 
 ## Install
 `gem install prawn open-uri image_size`, then clone the repo and run the script with `ruby download_linkedin_carousels.rb`
