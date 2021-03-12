@@ -1,6 +1,9 @@
 # download_linkedin_carousel
 A tool for downloading carousels (NOT carousel ads!) from LinkedIn.
 
+## Discontinued
+LinkedIn added a PDF download button in the fullscreen view of their carousels.
+
 ## Origin of the project
 I often see nice tutorials on Linkedin for Data Science and whatnot, published as carousels. Ironically, although they're uploaded as PDFs, downloading them and stitching them back together as PDFs is a long and boring process.
 
